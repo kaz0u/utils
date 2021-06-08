@@ -1,0 +1,1 @@
+export type Assert<Expr extends true> = Expr extends Expr ? never : never;
